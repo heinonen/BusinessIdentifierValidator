@@ -1,0 +1,31 @@
+﻿https://www.vero.fi/download/Tarkistusmerkin_laskenta/%7BD5780347-547E-4C44-90C1-25F8AD9DA7F8%7D/6508
+
+YRITYS- JA YHTEISÖTUNNUS = Y-TUNNUS
+
+Y-tunnuksen muodostavat yksilöivä osa ja tarkistusmerkki mainitussa
+järjestyksessä. Yksilöivän osan muodostaa seitsennumeroinen
+järjestysnumero.
+
+Tunnuksen muoto on NNNNNNN-T, jossa NNNNNNN on järjestysnumero ja T
+on tarkistusmerkki. Tarkistusmerkki lasketaan seuraavasti:
+1. Kerrotaan oikealta lukien yksilöintiosan
+ensimmäinen		numero	luvulla	2
+toinen			"		"		4
+kolmas			"		"		8
+neljäs			"		"		5
+viides			"		"		10
+kuudes			"		"		9
+seitsemäs		"		"		7
+
+2. Lasketaan näin saadut tulot yhteen.
+
+3. Jaetaan summa luvulla 11.
+
+4. Asetetaan tarkistusmerkiksi
+0, jos jakolaskun jakojäännös = 0
+11- jakojäännös, jos jakolaskun jakojäännös > 1
+
+Jos jakolaskun jakojäännös on 1, niin kyseinen tunnus ei ole käytössä.
+
+Tilityspisteen tunnuksesta voidaan tarkistaa päätilittäjän Y-tunnuksen
+tarkistusmerkki (8. merkki vasemmalta).
