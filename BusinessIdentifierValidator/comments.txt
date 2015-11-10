@@ -3,8 +3,8 @@
 	--> Koodia ei tarvitsisi muokata ja kääntää, kun muutokset erillisessä tiedostossa.
 	--> Mahdollistaisi myös geneerisen validaattorin, joka saisi inputtina validoitavan tunnuksen lisäksi muodon ja laskusäännöt
 
-2. Liian pitkä funktio IsSatisfiedBy() heikentää luettavuutta, joten jaettava pienempiin toiminnallisiin lohkoihin.
-	--> Tarkistuksen voisi jakaa kahteen eri funktioon: validoi tunnuksen muoto, laske ja validoi tarkistusmerkki
+2. Liian pitkä funktio IsSatisfiedBy() heikentää luettavuutta, joten jaettava pienempiin toiminnallisiin osiin.
+	--> Tarkistuksen voisi jakaa muutamaan privaattiin funktioon: validoi tunnuksen muoto, laske ja validoi tarkistusmerkki
 
 3. Kielituki: Epäkelpoisuuden syille esim. numeerinen arvo
 	--> Mahdollistaisi syiden esittämisen käytettävän kielitiedostojen mukaan
